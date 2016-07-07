@@ -80,12 +80,9 @@ namespace Eye_Tracker_Component_C_Sharp_NET
         private Button button1;
         private Socket clienterCamera = null;
         private Socket clienterPha = null;
-        private socketData serverData;
         private int port = 8080;
         private bool start = false;
         private bool end = false;
-        //SocketDLL.TrialData trial_data = null;
-        socketData eyetrackerData = null;
         SocketDLL.TrialData clientData = null;
         SocketDLL.ServerSocket socketser;
         Logger logger = null;
@@ -521,8 +518,9 @@ namespace Eye_Tracker_Component_C_Sharp_NET
 			// Initiate number of points to be calibrated
 			SetNumberOfCalibrationPoints();
 
-			// Initiate window properties and start calibration
-			tetCalibProc.WindowTopmost = false;
+            // Initiate window properties and start calibration
+            tetCalibProc.PointColor = 255;
+            tetCalibProc.WindowTopmost = false;
 			tetCalibProc.WindowVisible = true;
 			tetCalibProc.StartCalibration(isRecalibrating ? TetCalibType.TetCalibType_Recalib : TetCalibType.TetCalibType_Calib, false);
 		}
@@ -767,7 +765,14 @@ namespace Eye_Tracker_Component_C_Sharp_NET
 			{
 				MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
-		}
+            _starttime = DateTime.UtcNow;
+            _stopwatch = Stopwatch.StartNew();
+            DateTime highresDT = _starttime.AddTicks(_stopwatch.Elapsed.Ticks);
+            DateTime cstTime = highresDT.ToLocalTime();
+
+            string timeStamp = cstTime.ToString("MM-dd-yyyy_HH-mm-ss-ffff");
+            logger.set_refTime(timeStamp.Split('_')[1]);
+        }
 
 		private void trackStopButton_Click(object sender, System.EventArgs e)
 		{
@@ -936,24 +941,6 @@ namespace Eye_Tracker_Component_C_Sharp_NET
                     }
                 }
 
-                //if (now > 2)
-                //{
-                //    trackingTextBox.Text = (
-                //        //"X: " + x.ToString() +
-                //        //"\r\n" + "Y: " + y.ToString() +
-                //        //"\r\n" + "Now: " + now.ToString() +
-                //        "\r\n" + "Blink_now: " + blink_now.ToString() +
-                //        //"\r\n" + "gaze_x_valid_now: " + gaze_x_valid[now - 1].ToString() +
-                //        //"\r\n" + "gaze_y_valid_now: " + gaze_y_valid[now - 1].ToString() +
-                //        //"\r\n" + "gaze_x_valid_length: " + gaze_x_valid.Count.ToString() +
-                //        //"\r\n" + "gaze_x_valid_previous: " + gaze_x_valid[now - 2] +
-                //        //"\r\n" + "gaze_y_valid_previous: " + gaze_y_valid[now - 2] +
-                //        //"\r\n" + "d :" + d.ToString() +
-                //        "\r\n" + "fixation_duration: " + fixation_duration.ToString() +
-                //        "\r\n" + "fixation_point_x: " + fixation_point_x.ToString() +
-                //        "\r\n" + "fixation_point_y: " + fixation_point_y.ToString()
-                //        );
-                //}
                 // Set position, size and color of gaze form
                 if (valid)
                 {
@@ -971,67 +958,6 @@ namespace Eye_Tracker_Component_C_Sharp_NET
             }
 
             logger.setETData(gazeData);
-
-            //receive start permit
-            //if (socketser.Connected)
-            //{
-            //    //send data to camera
-            //    float a = 100;
-            //    float b = 200;
-            //    string senderMessage = a.ToString() + ";" + x.ToString() + ";" + y.ToString() + ";" + distance.ToString() + ";" + b.ToString() + ";";
-            //    byte[] msg = Encoding.ASCII.GetBytes(senderMessage);
-            //    clienterCamera.Send(msg);
-
-            //    //receive data from robot
-            //    int res = 0;
-            //    try
-            //    {
-            //        res = socketser.pollAndReceiveData(clienterPha, clientData, 1000);
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        System.Console.WriteLine(ex.Message);
-            //        return;
-            //    }
-
-            //    if (res > 0)
-            //    {
-            //        // As soon as we get the data from socket, resend the time stamp
-            //        SocketDLL.TrialData data = clientData;
-            //        int Trail_time_stamp = (int)(100 * (gazeData.timestamp_sec + (gazeData.timestamp_microsec / (1e6))));
-            //        logger.TrailInfo(new SocketDLL.TrialData(data.Start, data.End, data.StartAck, data.EndAck, Trail_time_stamp.ToString(), data.TrialNo));
-
-            //        if (data.TrialNo == 0)
-            //        {
-            //            start = false;
-            //            end = true;
-            //        }
-            //        else if (data.Start)
-            //        {
-            //            start = true;       //new trial started
-            //            end = false;
-            //        }
-            //    }
-            //}
-
-            //if (end == true)
-            //{
-            //    logger.log();
-            //    logger.close();
-            //    end = false;
-            //}
-            //else if (start == true)
-            //{
-            //    logger.setETData(gazeData);
-            //    if ((x < 1) && (x > 0) && (y < 1) && (y > 0))
-            //    {
-            //        label7.Text = "HIT!";
-            //    }
-            //    else
-            //    {
-            //        label7.Text = "NO HIT.";
-            //    }
-            //}
 		}
 
 		#endregion

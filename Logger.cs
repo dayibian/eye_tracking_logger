@@ -13,45 +13,29 @@ namespace Eye_Tracker_Component_C_Sharp_NET
 {
     public class Logger
     {
-        //private List<SocketDLL.EyeTrackerData> et_data = new List<SocketDLL.EyeTrackerData>();
         private List<TetGazeData> raw_data = new List<TetGazeData>();
-        //private List<TrialData> hitting_data = new List<TrialData>();
-        private int trialNumber = 0;
-        private string Data_base_dir = "\\data\\";
-        private string logFileName = "ETlog.dat";
+        private string Data_base_dir = 
+            "C:/Users/biand/Documents/Affective_touch/Eye_tracking/EyetrackerComponents.Net_log/data/";
         private string rawDataFileName = "RawLog.dat";
-        private string hitFileName = "HitLog.dat";
-        //private StreamWriter log_writer = null;
         private StreamWriter raw_writer = null;
-        //private StreamWriter hit_writer = null;
         DateTime _starttime = new DateTime();
         Stopwatch _stopwatch = null;
+        private string ref_time;
         private int screen_width = 1920;
         private int screen_height = 1080;
         private int number = 0;
 
         public Logger(string _rawLogFileName = "")
         {
-            //if (_logFileName != "")
-            //{
-            //    logFileName = _logFileName;
-            //}
             if (_rawLogFileName != "")
             {
                 rawDataFileName = _rawLogFileName;
             }
-            //if (_hitLogFileName != "")
-            //{
-            //    hitFileName = _hitLogFileName;
-            //}
-            // Initialize the log file here
-            //string log = Data_base_dir + logFileName;
-            string raw = Data_base_dir + rawDataFileName;
-            //string hit = Data_base_dir + hitFileName;
 
-            //log_writer = File.CreateText(log);
+            // Initialize the log file here
+            string raw = Data_base_dir + rawDataFileName;
+
             raw_writer = File.CreateText(raw);
-            //hit_writer = File.CreateText(hit);
 
             // Start a timer here
             _starttime = DateTime.UtcNow;
@@ -64,28 +48,11 @@ namespace Eye_Tracker_Component_C_Sharp_NET
 
         public void setETData(TetGazeData _raw)
         {
-            //et_data.Add(_data);
             raw_data.Add(_raw);
         }
 
-        //public void TrailInfo(TrialData TrailInfor)
-        //{
-        //    hitting_data.Add(TrailInfor);
-        //}
-
         public void log()
         {
-            // Log the list of eye tracker data with in this trial
-            //string dat = "Trial number: " + trialNumber;
-            //log_writer.WriteLine(dat);
-            //System.Console.WriteLine("Trial Number logged");
-            //foreach (SocketDLL.EyeTrackerData data in et_data)
-            //{
-            //    log_writer.WriteLine(data.ToString());
-            //}
-            //// then, clear the list
-            //et_data.Clear();
-
             // Now, log the raw Tobii eye tracker data in the Tobii Studio format
             string dat = "";
             DateTime highresDT = _starttime.AddTicks(_stopwatch.Elapsed.Ticks);
@@ -121,24 +88,15 @@ namespace Eye_Tracker_Component_C_Sharp_NET
             raw_writer.WriteLine(dat);
             dat = " ";
             raw_writer.WriteLine(dat);
-            dat = "Export date:  " + date;
+            dat = " ";
             raw_writer.WriteLine(dat);
-            dat = "Export time:	 " + time;
+            dat = "Reference time:  " + ref_time;
             raw_writer.WriteLine(dat);
             dat = " ";
             raw_writer.WriteLine(dat);
             dat = "Participant:";
             raw_writer.WriteLine(dat);
-            dat = "Filter settings:";
-            raw_writer.WriteLine(dat);
-            dat = " ";
-            raw_writer.WriteLine(dat);
-            dat = "Eye: Average";
-            raw_writer.WriteLine(dat);
-            dat = "Validity: Normal";
-            raw_writer.WriteLine(dat);
-            dat = "Fixation filter: Raw data";
-            raw_writer.WriteLine(dat);
+
             dat = " ";
             raw_writer.WriteLine(dat);
             dat = "Timestamp TimestampSec TimestampUSec Number GazePointXLeft GazePointYLeft CamXLeft CamYLeft DistanceLeft PupilLeft ValidityLeft GazePointXRight GazePointYRight CamXRight CamYRight DistanceRight PupilRight ValidityRight";
@@ -179,26 +137,14 @@ namespace Eye_Tracker_Component_C_Sharp_NET
             raw_data.Clear();
         }
 
-            //write the information of the experiment
-        //    string trailDat = "";
-        //    trailDat = "start end time trailNum \r\n";
-        //    hit_writer.WriteLine(trailDat);
-        //    foreach (TrialData trailInfor in hitting_data)
-        //    {
-        //        trailDat = "";
-        //        trailDat += (trailInfor.Start.ToString()+" ");
-        //        trailDat += (trailInfor.End.ToString()+" ");
-        //        trailDat += (trailInfor.timeStamp.ToString()+" ");
-        //        trailDat += (trailInfor.TrialNo.ToString() + "\r\n");
-        //        hit_writer.WriteLine(trailDat);
-        //    }
-        //    hitting_data.Clear();
-        //}
+        public void set_refTime(string _ref_time)
+        {
+            ref_time = _ref_time;
+        }
 
         public void close()
         {
             raw_writer.Close();
         }
-
     }
 }

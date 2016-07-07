@@ -1,0 +1,152 @@
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\bin\Debug\sample.exe
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\bin\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\bin\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\bin\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhangl22\Desktop\data\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\bin\Debug\sample.exe
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\bin\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\bin\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\bin\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhangl22\Desktop\eye tracker\TobiiSDK-win\TobiiSDK-win\tobiisdk-3.0.2-Win32\Win32\Net\Examples\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\bin\Debug\sample.exe
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\bin\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\bin\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\bin\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\eyetracker\program\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+E:\eyetracker\program\EyetrackerComponents.Net\obj\Debug\sample.exe
+E:\eyetracker\program\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\bin\Debug\sample.exe
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\bin\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\bin\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\bin\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhangl22\Desktop\back up\08_16\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\zhangl22\Desktop\back up\eyetracker+Camera\08_16\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\back up\eyetracker+Camera\08_16\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\back up\eyetracker+Camera\08_16\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhangl22\Desktop\back up\eyetracker+Camera\08_16\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhangl22\Desktop\back up\eyetracker+Camera\08_16\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhangl22\Desktop\back up\eyetrackerComponents\09_13\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\bin\Debug\sample.exe
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\bin\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\bin\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\bin\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhangl22\Desktop\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhangl22\Desktop\New folder\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\bin\Debug\sample.exe
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\bin\Debug\sample.pdb
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\bin\Debug\Interop.TetComp.dll
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\bin\Debug\AxInterop.TetComp.dll
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhengz\Desktop\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\program\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+D:\program\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+D:\program\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+D:\program\EyetrackerComponents.Net\obj\Debug\sample.exe
+D:\program\EyetrackerComponents.Net\obj\Debug\sample.pdb
+D:\program\EyetrackerComponents.Net\obj\Debug\ResolveAssemblyReference.cache
+D:\program\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+D:\program\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+D:\program\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\program\EyetrackerComponents.Net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\program backup\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\program backup\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\program backup\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\program backup\EyetrackerComponents.Net\obj\Debug\sample.exe
+L:\robot\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+L:\robot\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+L:\robot\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+L:\robot\EyetrackerComponents.Net\obj\Debug\sample.exe
+E:\Backup Lian\robot\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+E:\Backup Lian\robot\EyetrackerComponents.Net\obj\Debug\sample.exe
+G:\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+G:\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\Interop.TetComp.dll
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\AxInterop.TetComp.dll
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\sample.exe
+C:\Users\biand\Desktop\EyetrackerComponents.Net\bin\Debug\sample.exe
+C:\Users\biand\Desktop\EyetrackerComponents.Net\bin\Debug\sample.pdb
+C:\Users\biand\Desktop\EyetrackerComponents.Net\bin\Debug\Interop.TetComp.dll
+C:\Users\biand\Desktop\EyetrackerComponents.Net\bin\Debug\AxInterop.TetComp.dll
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csprojResolveAssemblyReference.cache
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\EyetrackerComponentsNet.csproj.GenerateResource.Cache
+C:\Users\biand\Desktop\EyetrackerComponents.Net\obj\Debug\sample.pdb
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\Interop.TetComp.dll
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\AxInterop.TetComp.dll
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\sample.exe
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\sample.pdb

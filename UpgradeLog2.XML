@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="EyetrackerComponentsNet">
+</Property><Property Name="Solution File" Value="C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\EyetrackerComponentsNet.sln">
+</Property><Property Name="User Options File" Value="C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\EyetrackerComponentsNet.suo">
+</Property><Property Name="Date" Value="Monday, July 30, 2012">
+</Property><Property Name="Time" Value="14:11 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="EyetrackerComponentsNet.sln" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\EyetrackerComponentsNet.sln">
+</Event><Event ErrorLevel="0" Project="" Source="EyetrackerComponentsNet.suo" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\EyetrackerComponentsNet.suo">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="EyetrackerComponentsNet.csproj" Description="Project file successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\EyetrackerComponentsNet.csproj">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="GazeForm.cs" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\GazeForm.cs">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="MainForm.cs" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="TetServiceEntryWrapper.cs" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\TetServiceEntryWrapper.cs">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="App.ico" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\App.ico">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="GazeForm.resx" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\GazeForm.resx">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="MainForm.resx" Description="File successfully backed up as C:\Users\zhangl22\Desktop\eye tracker\EyetrackerComponents.Net\Backup1\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="EyetrackerComponentsNet" Source="EyetrackerComponentsNet.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="EyetrackerComponentsNet" Source="EyetrackerComponentsNet.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="EyetrackerComponentsNet.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="EyetrackerComponentsNet.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -14,6 +14,8 @@ namespace Eye_Tracker_Component_C_Sharp_NET
     public class Logger
     {
         private List<TetGazeData> raw_data = new List<TetGazeData>();
+        private List<float> gaze_x = new List<float>();
+        private List<float> gaze_y = new List<float>();
         private string Data_base_dir = 
             "C:/Users/biand/Documents/Affective_touch/Eye_tracking/EyetrackerComponents.Net_log/data/";
         private string rawDataFileName = "RawLog.dat";
@@ -42,13 +44,16 @@ namespace Eye_Tracker_Component_C_Sharp_NET
             _stopwatch = Stopwatch.StartNew();
             // Get the screen resolution for logging
             Rectangle screenSize = Screen.PrimaryScreen.Bounds;
-            screen_width = screenSize.Width; //1680; // Depends on monitor size, change to an easily located constant later
-            screen_height = screenSize.Height;//1050; // same as above
+            screen_width = screenSize.Width;
+            // Depends on monitor size, change to an easily located constant later
+            screen_height = screenSize.Height;
         }
 
-        public void setETData(TetGazeData _raw)
+        public void setETData(TetGazeData _raw, float _x, float _y)
         {
             raw_data.Add(_raw);
+            gaze_x.Add(_x);
+            gaze_y.Add(_y);
         }
 
         public void log()
@@ -58,7 +63,8 @@ namespace Eye_Tracker_Component_C_Sharp_NET
             DateTime highresDT = _starttime.AddTicks(_stopwatch.Elapsed.Ticks);
             DateTime cstTime = highresDT.ToLocalTime();
 
-            string timeStamp = cstTime.ToString("MM-dd-yyyy_HH-mm-ss-ffff");    //the time when the whole experiment is finished
+            string timeStamp = cstTime.ToString("MM-dd-yyyy_HH-mm-ss-ffff");    
+            //the time when the whole experiment is finished
             char[] delim = { '_' };
             string[] parts = timeStamp.Split(delim);
             string date = parts[0];
@@ -99,11 +105,16 @@ namespace Eye_Tracker_Component_C_Sharp_NET
 
             dat = " ";
             raw_writer.WriteLine(dat);
-            dat = "Timestamp TimestampSec TimestampUSec Number GazePointXLeft GazePointYLeft CamXLeft CamYLeft DistanceLeft PupilLeft ValidityLeft GazePointXRight GazePointYRight CamXRight CamYRight DistanceRight PupilRight ValidityRight";
+            dat = "Timestamp TimestampSec TimestampUSec Number GazeX GazeY GazePointXLeft " + 
+                "GazePointYLeft CamXLeft CamYLeft DistanceLeft PupilLeft ValidityLeft GazePointXRight " + 
+                "GazePointYRight CamXRight CamYRight DistanceRight PupilRight ValidityRight";
             raw_writer.WriteLine(dat);
 
-            foreach (TetGazeData data in raw_data)
+            for(int i=0; i<raw_data.Count; i++)
             {
+                TetGazeData data = raw_data[i];
+                float x = gaze_x[i];
+                float y = gaze_y[i];
                 // Now, start logging the actual data
                 dat = "";
                 // Log the time stamp in msec
@@ -114,6 +125,9 @@ namespace Eye_Tracker_Component_C_Sharp_NET
                 // Log the number
                 dat += (number + " ");
                 number++;
+                // Log the actual gaze position
+                dat += (x + " ");
+                dat += (y + " ");
                 // Log the left eye data
                 dat += (data.x_gazepos_lefteye + " ");
                 dat += (data.y_gazepos_lefteye + " ");

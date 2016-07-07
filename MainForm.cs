@@ -957,7 +957,7 @@ namespace Eye_Tracker_Component_C_Sharp_NET
                 }
             }
 
-            logger.setETData(gazeData);
+            logger.setETData(gazeData,x,y);
 		}
 
 		#endregion

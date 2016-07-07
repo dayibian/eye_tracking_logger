@@ -150,3 +150,12 @@ C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_l
 C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\EyetrackerComponentsNet.csproj.ResolveComReference.cache
 C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\sample.exe
 C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\sample.pdb
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\EyetrackerComponentsNet.csprojResolveAssemblyReference.cache
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.GazeForm.resources
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\Eye_Tracker_Component_C_Sharp_NET.MainForm.resources
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\obj\Debug\EyetrackerComponentsNet.csproj.GenerateResource.Cache
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\bin\Debug\sample.exe.config
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\bin\Debug\sample.exe
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\bin\Debug\sample.pdb
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\bin\Debug\Interop.TetComp.dll
+C:\Users\biand\Documents\Affective_touch\Eye_tracking\EyetrackerComponents.Net_log\bin\Debug\AxInterop.TetComp.dll

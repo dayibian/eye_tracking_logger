@@ -130,10 +130,8 @@ namespace Eye_Tracker_Component_C_Sharp_NET
             DateTime cstTime = highresDT.ToLocalTime();
 
             string timeStamp = cstTime.ToString("_MM-dd-yyyy_HH-mm-ss-ffff");
-            string log = "ETData" + timeStamp + ".dat";
             string raw = "RawData" + timeStamp + ".dat";
-            string TrI = "TrailInfor" + timeStamp + ".dat";
-            logger = new Logger(log, raw, TrI);
+            logger = new Logger(raw);
         }
 
 		/// <summary>
@@ -781,6 +779,8 @@ namespace Eye_Tracker_Component_C_Sharp_NET
 			{
 				MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
+            logger.log();
+            logger.close();
 		}
 
 		#endregion
@@ -969,67 +969,69 @@ namespace Eye_Tracker_Component_C_Sharp_NET
                     gazeForm.BackColor = Color.Blue;
                 }
             }
-            
+
+            logger.setETData(gazeData);
+
             //receive start permit
-            if (socketser.Connected)
-            {
-                //send data to camera
-                float a = 100;
-                float b = 200;
-                string senderMessage = a.ToString() + ";" + x.ToString() + ";" + y.ToString() + ";" + distance.ToString() + ";" + b.ToString() + ";";
-                byte[] msg = Encoding.ASCII.GetBytes(senderMessage);
-                clienterCamera.Send(msg);
+            //if (socketser.Connected)
+            //{
+            //    //send data to camera
+            //    float a = 100;
+            //    float b = 200;
+            //    string senderMessage = a.ToString() + ";" + x.ToString() + ";" + y.ToString() + ";" + distance.ToString() + ";" + b.ToString() + ";";
+            //    byte[] msg = Encoding.ASCII.GetBytes(senderMessage);
+            //    clienterCamera.Send(msg);
 
-                //receive data from robot
-                int res = 0;
-                try
-                {
-                    res = socketser.pollAndReceiveData(clienterPha, clientData, 1000);
-                }
-                catch (Exception ex)
-                {
-                    System.Console.WriteLine(ex.Message);
-                    return;
-                }
-                
-                if (res > 0)
-                {
-                    // As soon as we get the data from socket, resend the time stamp
-                    SocketDLL.TrialData data = clientData;
-                    int Trail_time_stamp = (int)(100 * (gazeData.timestamp_sec + (gazeData.timestamp_microsec / (1e6))));
-                    logger.TrailInfo(new SocketDLL.TrialData(data.Start, data.End, data.StartAck, data.EndAck, Trail_time_stamp.ToString(), data.TrialNo));
+            //    //receive data from robot
+            //    int res = 0;
+            //    try
+            //    {
+            //        res = socketser.pollAndReceiveData(clienterPha, clientData, 1000);
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        System.Console.WriteLine(ex.Message);
+            //        return;
+            //    }
 
-                    if (data.TrialNo == 0)
-                    {
-                        start = false;
-                        end = true;
-                    }
-                    else if (data.Start)
-                    {
-                        start = true;       //new trial started
-                        end = false;
-                    }
-                }
-            }
+            //    if (res > 0)
+            //    {
+            //        // As soon as we get the data from socket, resend the time stamp
+            //        SocketDLL.TrialData data = clientData;
+            //        int Trail_time_stamp = (int)(100 * (gazeData.timestamp_sec + (gazeData.timestamp_microsec / (1e6))));
+            //        logger.TrailInfo(new SocketDLL.TrialData(data.Start, data.End, data.StartAck, data.EndAck, Trail_time_stamp.ToString(), data.TrialNo));
 
-            if (end == true)
-            {
-                logger.log();
-                logger.close();
-                end = false;
-            }
-            else if (start == true)
-            {
-                logger.setETData(new SocketDLL.EyeTrackerData(fixation_duration, blink_now, x * screenSize.Width, y * screenSize.Height, pd, timeStamp), gazeData);
-                if ((x < 1) && (x > 0) && (y < 1) && (y > 0))
-                {
-                    label7.Text = "HIT!";
-                }
-                else
-                {
-                    label7.Text = "NO HIT.";
-                }
-            }
+            //        if (data.TrialNo == 0)
+            //        {
+            //            start = false;
+            //            end = true;
+            //        }
+            //        else if (data.Start)
+            //        {
+            //            start = true;       //new trial started
+            //            end = false;
+            //        }
+            //    }
+            //}
+
+            //if (end == true)
+            //{
+            //    logger.log();
+            //    logger.close();
+            //    end = false;
+            //}
+            //else if (start == true)
+            //{
+            //    logger.setETData(gazeData);
+            //    if ((x < 1) && (x > 0) && (y < 1) && (y > 0))
+            //    {
+            //        label7.Text = "HIT!";
+            //    }
+            //    else
+            //    {
+            //        label7.Text = "NO HIT.";
+            //    }
+            //}
 		}
 
 		#endregion
